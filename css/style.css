@@ -1,0 +1,106 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gray
+}
+
+.logo img {
+  cursor: pointer;
+}
+
+.logo img:hover {
+  transform:scale(1.1)
+}
+
+.buttons {
+  display: flex;
+}
+.btn {
+  border : none;
+  outline: none;
+  cursor: pointer;
+  transition: transform 100ms;
+}
+
+.btn {
+  margin: 8px;
+  background-color: gray;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+   transform: scale(1.1);
+}
+
+.btn img {
+  width: 50px;
+  height: 50px;
+}
+
+.colorbtn {
+  padding: 16px;
+  font-size: 18px;
+  border-radius: 4px;
+  
+}
+
+.blue {
+  background-color: blue;
+  
+}
+
+.yellow {
+  margin: 8px;
+  padding: 16px;
+  background-color: yellow;
+  font-size: 18px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.pink {
+  margin: 8px;
+  padding: 16px;
+  background-color: pink;
+  font-size: 18px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.items {
+  width: 30%;
+  height: 60%;
+  list-style: none;
+  padding-left: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 16px;
+}
+
+.item img {
+  width : 50px;
+  height: 50px;
+
+}
+
+.item .description {
+ margin-left: 50px; 
+}
+
+.deactive {
+  display: none;
+}
